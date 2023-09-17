@@ -1,2 +1,6 @@
-Walletservice is node/expess api
+Walletservice is node/express api
+
 FundMagnet is react app
+
+
+![Alt text](architecture.png)
