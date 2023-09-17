@@ -1,0 +1,13 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: white;
+
+  /* background-image: url("/public/images/lensmodalbg.jpg"); */
+  /* background-image: url("../../../../public/images/lensmodalbg.jpg"); */
+  /* border: 2px solid rgb(2 132 199); */
+  border-radius: 10px;
+}

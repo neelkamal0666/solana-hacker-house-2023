@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dark .dark-border {
+    @apply border border-gray-700;
+  }
+
+  .light-border {
+    @apply border border-gray-300;
+  }
+}
+
+h1 {
+  @apply text-4xl;
+}
+h2 {
+  @apply text-3xl;
+}
+h3 {
+  @apply text-2xl;
+}
+h4 {
+  @apply text-xl;
+}
+h5 {
+  @apply text-lg;
+}
+h6 {
+  @apply text-sm;
+}
+a {
+  @apply text-blue-600 underline;
+}
+ul {
+  @apply list-disc list-inside;
+}
+
+ol {
+  @apply list-decimal list-inside;
+}
+
+table {
+  @apply table-auto;
+}
+.darkSecondary {
+  @apply bg-gray-700;
+}
+.h-screen-80 {
+  height: calc(100vh - 80px);
+}
+.selectedlink {
+  color: #bd00ff;
+  text-decoration: none;
+}
+.react-tiny-popover-container {
+  top: 100px;
+}
+.navbar-active-item {
+  border: solid;
+  border-width: 0px;
+  border-bottom-width: 3px;
+  border-color: #0ea5e9;
+  padding-bottom: 2px;
+  transition: all ease-in-out 50ms;
+}
+
+.ql-toolbar .ql-stroke {
+  fill: none;
+  stroke: #6b7280 !important;
+}
+
+.ql-toolbar .ql-fill {
+  fill: #6b7280 !important;
+  stroke: none;
+}
+
+.ql-toolbar .ql-picker {
+  color: #6b7280 !important;
+}
+
+.landing-bg {
+  background: rgb(53, 12, 86);
+  background: linear-gradient(
+    90deg,
+    #270a4b 25%,
+    #1b0843 50%,
+    #16032f 75%,
+    #160033 100%
+  );
+}
+.landing-secsix {
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  background: rgb(45, 1, 102);
+  background: linear-gradient(
+    180deg,
+    rgba(45, 1, 102, 1) 11%,
+    rgba(29, 0, 67, 1) 36%,
+    rgba(14, 0, 33, 1) 100%
+  );
+}
+
+.edit-scrollbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+.wordwrap {
+  white-space: pre-wrap; /* Webkit */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -pre-wrap; /* Opera <7 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
+
+.dark .edit-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  background-color: #525252;
+}
+.edit-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f6f3f3;
+}
+.dark .edit-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #525252;
+  width: 20px;
+  height: 40px;
+  border-radius: 30px;
+}
+.no-dots .slick-dots {
+  display: none !important;
+}
+.slick-dots > li > button {
+  height: 15px !important ;
+  width: 15px !important;
+  clip-path: circle();
+  background: #441e83 !important;
+}
+.slick-dots > .slick-active > button {
+  height: 20px !important ;
+  width: 20px !important;
+  clip-path: circle();
+  background: #8c49fe !important;
+}
+.slick-dots li button:before {
+  font-size: 0px !important;
+}
+
+.edit-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ededed;
+  width: 20px;
+  height: 40px;
+  border-radius: 30px;
+}

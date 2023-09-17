@@ -1,0 +1,36 @@
+{
+  "name": "web3service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@solana/web3.js": "^1.78.5",
+    "axios": "^1.4.0",
+    "base58": "^2.0.1",
+    "base58-encode": "^0.2.0",
+    "base58-js": "^2.0.0",
+    "bignumber.js": "^9.1.1",
+    "bip39": "^3.1.0",
+    "body-parser": "^1.20.2",
+    "bs58": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "~4.16.1",
+    "fs": "^0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^3.3.1",
+    "solc": "^0.8.20",
+    "text-encoding": "^0.7.0",
+    "web3": "^1.10.0"
+  }
+}
